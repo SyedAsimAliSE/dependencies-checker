@@ -111,13 +111,19 @@ dependencies {
     implementation "com.facebook.android:audience-network-sdk:5.0.0"
 
     //DEV TOOLS LIBS
-    val timber = "com.jakewharton.timber:timber:4.7.1"
-    val setho = "com.facebook.stetho:stetho:1.5.0"
-    val stethoOkHttp = "com.facebook.stetho:stetho-okhttp3:1.5.0"
-
+    implementation "com.jakewharton.timber:timber:4.7.1"
+    implementation "com.facebook.stetho:stetho:1.5.0"
+    implementation "com.facebook.stetho:stetho-okhttp3:1.5.0"
     debugImplementation "com.squareup.leakcanary:leakcanary-android:1.6.2"
     releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:1.6.2"
     debugImplementation "com.squareup.leakcanary:leakcanary-support-fragment:1.6.2"
+
+    //COMMON
+    implementation "com.nabinbhandari.android:permissions:3.7"
+    implementation "com.afollestad.material-dialogs:core:2.0.0-beta4"
+    implementation "com.blankj:utilcode:1.22.0"
+    implementation "com.github.PhilJay:MPAndroidChart:v3.1.0-alpha"
+    implementation "io.paperdb:paperdb:2.6"
 
     //TESTING
     testImplementation 'junit:junit:4.12'
