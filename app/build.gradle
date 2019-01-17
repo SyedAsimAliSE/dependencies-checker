@@ -149,6 +149,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
+    testImplementation "org.assertj:assertj-core:3.11.1"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.0.0-RC1"
+    testImplementation "org.mockito:mockito-inline:2.23.4"
+    testImplementation "androidx.arch.core:core-testing:2.1.0-alpha01"
 }
 
 apply plugin: 'com.google.gms.google-services'
