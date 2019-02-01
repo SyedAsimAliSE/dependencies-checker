@@ -54,12 +54,13 @@ dependencies {
     implementation "androidx.emoji:emoji-appcompat:1.0.0"
     implementation "androidx.preference:preference:1.0.0"
     implementation "androidx.browser:browser:1.0.0"
+    implementation "androidx.paging:paging-runtime-ktx:2.1.0"
 
     //ANDROID LIFECYCLE
-    implementation "androidx.lifecycle:lifecycle-runtime:2.1.0-alpha01"
-    implementation "androidx.lifecycle:lifecycle-compiler:2.1.0-alpha01"
-    implementation "androidx.lifecycle:lifecycle-common-java8:2.1.0-alpha01"
-    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0-alpha01"
+    implementation "androidx.lifecycle:lifecycle-runtime:2.1.0-alpha02"
+    implementation "androidx.lifecycle:lifecycle-compiler:2.1.0-alpha02"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.1.0-alpha02"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0-alpha02"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
 
     //NAVIGATION COMPONENT
