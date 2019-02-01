@@ -31,7 +31,7 @@ dependencies {
 
     //KOTLIN
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20"
-    implementation "androidx.core:core-ktx:1.1.0-alpha03"
+    implementation "androidx.core:core-ktx:1.1.0-alpha04"
 
     //COROUTINES
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1"
@@ -45,8 +45,8 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
     implementation "androidx.recyclerview:recyclerview:1.1.0-alpha01"
     implementation "androidx.multidex:multidex:2.0.1"
-    implementation "androidx.activity:activity:1.0.0-alpha03"
-    implementation "androidx.fragment:fragment:1.1.0-alpha03"
+    implementation "androidx.activity:activity:1.0.0-alpha04"
+    implementation "androidx.fragment:fragment:1.1.0-alpha04"
     implementation "androidx.constraintlayout:constraintlayout:2.0.0-alpha3"
     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01"
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha01"
@@ -64,10 +64,10 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
 
     //NAVIGATION COMPONENT
-    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha09"
-    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha09"
-    implementation "android.arch.navigation:navigation-fragment:1.0.0-alpha09"
-    implementation "android.arch.navigation:navigation-ui:1.0.0-alpha09"
+    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11"
+    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha11"
+    implementation "android.arch.navigation:navigation-fragment:1.0.0-alpha11"
+    implementation "android.arch.navigation:navigation-ui:1.0.0-alpha11"
 
     //DAGGER
     implementation "com.google.dagger:dagger:2.21"
@@ -95,10 +95,10 @@ dependencies {
     implementation "com.github.chrisbanes:PhotoView:2.3.0"
 
     //ROOM
-    implementation "androidx.room:room-common:2.1.0-alpha03"
-    implementation "androidx.room:room-runtime:2.1.0-alpha03"
-    kapt "androidx.room:room-compiler:2.1.0-alpha03"
-    implementation "androidx.room:room-coroutines:2.1.0-alpha03"
+    implementation "androidx.room:room-common:2.1.0-alpha04"
+    implementation "androidx.room:room-runtime:2.1.0-alpha04"
+    kapt "androidx.room:room-compiler:2.1.0-alpha04"
+    implementation "androidx.room:room-coroutines:2.1.0-alpha04"
 
     //OK HTTP
     implementation "com.squareup.okhttp3:okhttp:3.12.1"

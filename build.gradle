@@ -15,7 +15,7 @@ buildscript {
         // in the individual module build.gradle files
 
         //NAVIGATION SAFE ARGS PLUGIN
-        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha09"
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha11"
 
         //GOOGLE PLAY SERVICES
         classpath "com.google.gms:google-services:4.2.0"
