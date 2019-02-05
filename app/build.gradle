@@ -64,10 +64,10 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
 
     //NAVIGATION COMPONENT
-    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11"
-    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha11"
-    implementation "android.arch.navigation:navigation-fragment:1.0.0-alpha11"
-    implementation "android.arch.navigation:navigation-ui:1.0.0-alpha11"
+    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-beta01"
+    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-beta01"
+    implementation "android.arch.navigation:navigation-fragment:1.0.0-beta01"
+    implementation "android.arch.navigation:navigation-ui:1.0.0-beta01"
 
     //DAGGER
     implementation "com.google.dagger:dagger:2.21"
