@@ -101,6 +101,8 @@ dependencies {
     kapt "androidx.room:room-compiler:2.1.0-alpha04"
     implementation "androidx.room:room-coroutines:2.1.0-alpha04"
 
+    implementation "io.objectbox:objectbox-kotlin:2.3.1"
+
     //OK HTTP
     implementation "com.squareup.okhttp3:okhttp:3.12.1"
     implementation "com.squareup.okhttp3:logging-interceptor:3.12.1"
