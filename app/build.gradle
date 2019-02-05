@@ -55,6 +55,7 @@ dependencies {
     implementation "androidx.preference:preference:1.0.0"
     implementation "androidx.browser:browser:1.0.0"
     implementation "androidx.paging:paging-runtime-ktx:2.1.0"
+    implementation "android.arch.work:work-runtime-ktx:1.0.0-beta04"
 
     //ANDROID LIFECYCLE
     implementation "androidx.lifecycle:lifecycle-runtime:2.1.0-alpha02"
