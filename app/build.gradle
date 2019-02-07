@@ -34,9 +34,9 @@ dependencies {
     implementation "androidx.core:core-ktx:1.1.0-alpha04"
 
     //COROUTINES
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.1"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.0.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.0"
 
     //ANDROID
     implementation "androidx.appcompat:appcompat:1.1.0-alpha01"
@@ -52,7 +52,7 @@ dependencies {
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha01"
     implementation "androidx.palette:palette:1.0.0"
     implementation "androidx.emoji:emoji-appcompat:1.0.0"
-    implementation "androidx.preference:preference:1.0.0"
+    implementation 'androidx.preference:preference:1.1.0-alpha02'
     implementation "androidx.browser:browser:1.0.0"
     implementation "androidx.paging:paging-runtime-ktx:2.1.0"
     implementation "android.arch.work:work-runtime-ktx:1.0.0-beta04"
